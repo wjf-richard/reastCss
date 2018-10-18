@@ -14,11 +14,7 @@ html {
 
 }
 
-
-
 /* 禁止缩放表单 */
-
-
 
 input[type="submit"], input[type="reset"], input[type="button"], input {
 
@@ -29,10 +25,7 @@ border: none;
 }
 
 
-
 /* 取消链接高亮 */
-
-
 
 body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 
@@ -41,10 +34,7 @@ body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, d
 }
 
 
-
 /* 设置HTML5元素为块 */
-
-
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 
@@ -55,8 +45,6 @@ display: block;
 
 
 /* 图片自适应 */
-
-
 
 img {
 
@@ -75,8 +63,6 @@ display: block;
 
 
 /* 初始化 */
-
-
 
 body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button,
 
@@ -204,8 +190,6 @@ font-family: 'Microsoft YaHei';
 
 /*单行溢出*/
 
-
-
 .one-txt-cut{
 
 overflow: hidden;
@@ -217,9 +201,7 @@ text-overflow: ellipsis;
 }
 
 
-
 /*多行溢出 手机端使用*/
-
 
 
 .txt-cut{
@@ -239,8 +221,6 @@ display: -webkit-box;
 
 
 /* 移动端点击a链接出现蓝色背景问题解决 */
-
-
 
 a:link,a:active,a:visited,a:hover {
 
@@ -308,11 +288,7 @@ display: none;
 
 #### 二：PC端公共样式
 
-
-
 1.简单样式清除
-
-
 
 html {width: 100%;-webkit-text-size-adjust:none;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);height: 100%;}
 
@@ -353,8 +329,6 @@ body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{
 
 
 2.ie
-
-
 
 /*
 
@@ -402,8 +376,6 @@ body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{
 
 
 三 移动端HTML
-
-
 
 <html>
 
@@ -461,11 +433,7 @@ body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{
 
 四 移动端px转换rem .js
 
-
-
 转换比是1:20（即：20px = 1rem） 也可以自己根据需求调
-
-
 
 // px转化成rem
 
@@ -505,14 +473,8 @@ doc.addEventListener('DOMContentLoaded', recalc, false);
 
 不管是PC还是移动端
 
-
-
 我们一般都会提一个 .overflow {overflow:hidden} 方便布局，也可以有效的阻止移动端上下左右拖动问题（溢出问题）
 
-
-
 类似于 JD 缩放不会打乱布局
-
-
 
 个人喜欢加载layout 上面
