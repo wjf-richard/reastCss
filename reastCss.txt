@@ -191,13 +191,9 @@ font-family: 'Microsoft YaHei';
 /*单行溢出*/
 
 .one-txt-cut{
-
-overflow: hidden;
-
-white-space: nowrap;
-
-text-overflow: ellipsis;
-
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 
